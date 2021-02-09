@@ -87,3 +87,12 @@
 .sidebar__profileIcons > .MuiSvgIcon-root {
   padding: 10px;
 }
+
+.sidebar__channelsList {
+  flex: 1;
+  overflow: scroll;
+}
+
+.sidebar__channelsList::-webkit-scrollbar {
+  width: 0;
+}
